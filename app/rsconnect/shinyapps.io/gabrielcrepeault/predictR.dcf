@@ -1,0 +1,10 @@
+name: predictR
+title:
+username:
+account: gabrielcrepeault
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 572452
+bundleId: 1718749
+url: https://gabrielcrepeault.shinyapps.io/predictR/
+when: 1543123854.45668
