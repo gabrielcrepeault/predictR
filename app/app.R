@@ -1,7 +1,7 @@
 ## Load necessary packages
 # setwd(dirname(rstudioapi::getSourceEditorContext()$path))
-library(nlme)
 library(MASS)
+library(nlme)
 library(shiny)
 library(shinydashboard)
 library(shinyWidgets)
@@ -208,7 +208,7 @@ body <- dashboardBody(
   )
 )
 
-ui <- dashboardPage(skin = 'green', header = header,
+ui <- dashboardPage(skin = 'red', header = header,
                     sidebar = sidebar, body = body)
 
 server <- function(input, output, session) {
