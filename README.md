@@ -5,8 +5,10 @@ A friendly shiny app UI to help you create linear models on your data
 If you want a demo before cloning/forking the repo, go to
 > https://gabrielcrepeault.shinyapps.io/predictR/
 
-
-
+If you want to test it locally, you can also use the following function : 
+```
+shiny::runGitHub('predictR', 'gabrielcrepeault', subdir = 'app')
+```
 
 
 ## What it can do
@@ -25,5 +27,5 @@ If you want a demo before cloning/forking the repo, go to
 * Ridge
 * Cross-Validation
 * Box-Cox
-* Deal with large datasets (it's suggested to stay under 300Mb, depending of your internet connection)
+* Deal with large datasets (it's suggested to stay under 300Mb, the app constantly updates the results)
   
